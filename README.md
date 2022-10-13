@@ -17,6 +17,9 @@ V_PATH=~/trial-verdaccio; docker run --name verdaccio --restart always -d \
   -v $V_PATH/storage:/verdaccio/storage \
   -v $V_PATH/plugins:/verdaccio/plugins \
   verdaccio/verdaccio
+
+# 文件操作权限
+sudo chown -R 10001:65533 $V_PATH
 ```
 
 # 通过 nrm 配置注册源
