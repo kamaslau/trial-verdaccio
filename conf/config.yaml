@@ -13,8 +13,8 @@
 # Read about the best practices
 # https://verdaccio.org/docs/best
 
-VERDACCIO_PUBLIC_URL: "https://registry.npm.liuyajie.com"
-url_prefix: "/"
+VERDACCIO_PUBLIC_URL: https://registry.npm.liuyajie.com
+url_prefix: /
 
 # path to a directory with all packages
 storage: /verdaccio/storage/data
